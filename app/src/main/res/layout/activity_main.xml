@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:hint="First name"
+        android:id="@+id/Fname"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Last name"
+        android:id="@+id/Lname"
+        android:layout_below="@+id/Fname"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Lname"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:text="Add"
+        android:id="@+id/add"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Lname"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="240dp"
+        android:text="Display"
+        android:id="@+id/display"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>
